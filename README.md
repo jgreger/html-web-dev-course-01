@@ -1,2 +1,2 @@
-# html-web-dev-course-01
+# html-web-dev-course-mines
 Temporary code testing
