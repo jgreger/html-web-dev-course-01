@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner, 
+#banner_video {
+	padding: 20em 0 10em 0;
+	background-image: url("../../general/images/composite-general.jpg");
+	background-position: top;
+	background-attachment: fixed;
+	text-align: center;
+	border-top: 0.25em solid #000;
+	}
+#banner_video {
+    padding: 10em 0 3em 0;
+    background-size: cover;
+}
+#banner_video.tight {
+    padding: 9em 0 4.5em 0;
+}
+
+#banner h1,
+#banner_video h1 {
+		font-size: 3.5em;
+		font-weight: 800;
+		color: #fff;
+		line-height: 1em;
+		margin: 0 0 0.5em 0;
+		padding: 0;
+}
+
+#banner p,
+#banner_video p {
+	font-size: 2.0em;
+	line-height: 1.25em;
+	font-weight: 800;
+	color: #ddd;
+	margin-bottom: 0.875em;
+	text-transform: uppercase;
+}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+			#banner, #banner_dams, #banner_mines, #banner_tunnels, #banner_piles, #banner_video {
+				background-attachment: scroll;
+				background-size: cover;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner, #banner_dams, #banner_mines, #banner_tunnels, #banner_piles, #banner_video {
+				padding: 10em 2em 8em 2em;
+			}
+
+		}
+		@media screen and (max-width: 1280px) {
+
+			#banner_video.tight {
+				padding: 9em 0 4.5em 0;
+			}
+
+		}        
+
+		@media screen and (max-width: 980px) {
+
+			#banner, #banner_dams, #banner_mines, #banner_tunnels, #banner_piles, #banner_video {
+				background-attachment: scroll;
+				background-size: cover;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner, #banner_dams, #banner_mines, #banner_tunnels, #banner_piles, #banner_video {
+				padding: 8em 1.5em 6em 1.5em;
+				background-size: cover;
+			}
+
+				#banner h1, #banner_dams h1, #banner_mines h1, #banner_tunnels h1, #banner_piles h1, #banner_video h1 {
+					font-size: 2.5em;
+				}
+
+				#banner p, #banner_dams p, #banner_mines p, #banner_tunnels p, #banner_piles p, #banner_video p {
+					font-size: 1.25em;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#banner, #banner_dams, #banner_mines, #banner_tunnels, #banner_piles, #banner_video {
+				padding: 6em 1.5em 4em 1.5em;
+				background-size: cover;
+			}
+
+		}
+
+
+
+/*
+
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+	#banner, #banner_dams, #banner_mines, #banner_tunnels {
+		background-attachment: scroll;
+		background-size: cover;
+	}
+
+}
+
+@media screen and (max-width: 1280px) {
+
+	#banner, #banner_dams, #banner_mines, #banner_tunnels {
+		padding: 10em 2em 8em 2em;
+	}
+}
+
+@media screen and (max-width: 980px) {
+
+	#banner, #banner_dams, #banner_mines, #banner_tunnels {
+		background-attachment: scroll;
+		background-size: cover;
+	}
+}
+
+@media screen and (max-width: 736px) {
+
+	#banner, #banner_dams, #banner_mines, #banner_tunnels {
+		padding: 8em 1.5em 6em 1.5em;
+		background-size: cover;
+	}
+
+	#banner, #banner_dams, #banner_mines, #banner_tunnels h1 {
+		font-size: 2.5em;
+	}
+
+	#banner, #banner_dams, #banner_mines, #banner_tunnels p {
+		font-size: 1.25em;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	#banner, #banner_dams, #banner_mines, #banner_tunnels {
+		padding: 6em 1.5em 4em 1.5em;
+		background-size: cover;
+	}
+
+}
+*/
